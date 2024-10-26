@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000vh;
+}
+
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* section 1 */
+.section1 {
+    height: 100vh;
+    background-color: #37517E;
+}
+
+.section1 .navbar {
+    background-color: #37517E;
+}
+
+.section1 .navbar .navbar-nav {
+    width: 80%;
+}
+
+.section1 .active {
+    color: #46ABDC !important;
+}
+
+.btn-hover:hover {
+    color: #46ABDC !important;
+}
+
+@media (max-width : 768px) {
+    .section1 {
+        height: 160vh;
+    }
+
+    .section1 .spetial {
+        order: -1;
+    }
+
+    .section1 .title {
+        font-size: 30px !important;
+    }
+
+    .section1 .section-p {
+        margin: 30px 0px;
+    }
+
+    .slid-first {
+        display: none !important;
+    }
+}
+
+@media (max-width : 425px) {
+    .slid-second {
+        display: none !important;
+    }
+
+    .image {
+        width: 44% !important;
+        height: 84% !important;
+        margin: auto !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======about us============================================================  */
+.article-1 h2{
+    color: #37518F;
+    position: relative;
+}
+
+
+.article-1 h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+
+.article-1 h2::before {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: #47B2E4;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+
+.about-us .article-1 .btn-outline-info:hover {
+    color: white !important;
+}
+/* ------------------------------------------------------------------ */
+.about-us .article-2{
+    background-color: #F5F6F8 ;
+}
+
+
+/* =============================================================== */
+/* =============gallary======================================= */
+/* =============================================================== */
+.gallery h2 {
+    color: #37518F;
+    position: relative;
+}
+
+.gallery h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+
+.gallery h2::before {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: #47B2E4;
+    transform: translate(-50%);
+    z-index: 9;
+}
+
+.gallery-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-layer {
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+    transition: all 1s;
+}
+
+.gallery-img:hover .gallery-layer {
+    bottom: 0;
+}
+
+
+@media (min-width: 576px) {
+    .all-row {
+        height: 4200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .all-row {
+        height: 1636px;
+    }
+}
+
+@media (min-width: 992px) {
+    .all-row {
+        height: 888px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .all-row {
+        height: 1055px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .all-row {
+        height: 1230px;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 50px;
+    background-color: #47B2E4;
+}
+
+
+
+/* =============================================================== */
+/* =============team======================================= */
+/* =============================================================== */
+.team .team-content h2{
+    color: #37518F;
+    position: relative;
+}
+
+
+.team .team-content h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    transform: translate(-50%);
+}
+
+.team .team-content h2::before {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    left: 50%;
+    width: 75px;
+    height: 3px;
+    background-color: #47B2E4;
+    transform: translate(-50%);
+    z-index: 9;
+}
+

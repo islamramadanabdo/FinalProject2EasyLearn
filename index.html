@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <!-- my style -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+  <!-- section 1 -->
+  <div class="container-fluid section1" style="padding-top: 1px;" id="home">
+
+    <!-- nav -->
+    <div class="container-fluid fixed-top" style="background-color: #37517E;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fs-2 fw-bold" href="#home">ARSHA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav  justify-content-evenly  mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link  active fs-6" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white fs-6 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6" href="#">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                  <button class="btn btn-info text-white rounded-pill px-4">Get Started</button>
+                </li>
+
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- content -->
+    <div class="container" style="margin-top: 100px;">
+      <div class="row align-items-center" style="height: 80vh;">
+        <div class="col-lg-6  col-md-12 col-sm-12  ">
+          <h1 class="text-white fw-bold title" style="font-size: 50px;">Better Solutions For Your Business</h1>
+          <h4 class=" fw-bold mb-4 section-p" style="color: #C3CBD9;">
+            We are team of talented designers making websites with Bootstrap
+          </h4>
+          <button class="btn btn-info text-white rounded-pill px-4 py-2">Get Started</button>
+
+          <a href="#" class=" btn-hover btn  bg-transparent text-white fs-6 fw-bold">
+            <i class="fa-regular fa-circle-play fs-4"></i> Watch Video
+          </a>
+
+        </div>
+        <div class="col-lg-6 col-md-12  col-sm-12 spetial  h-100">
+          <div class="w-100 h-100">
+            <img src="./img/hero-img.png" class="w-100 h-100" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- slider logos -->
+
+  <div class="container-fluid" style="background-color: #F5F6F8;">
+    <div class="container" style="height: 15vh;">
+      <div id="carouselExampleIndicators" class="carousel slide h-100" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+
+          <div class="carousel-item active h-100">
+            <div class="container h-100">
+              <div class="row h-100 ">
+                <div class="col-lg-2 col-md-3 col-sm-12  d-flex align-items-center">
+                  <img src="./img/clients/client-1.png" class="img-fluid image " style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-2.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-3.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3  d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-4.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-5.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-6.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item  h-100">
+
+            <div class="container h-100">
+              <div class="row h-100 ">
+                <div class="col-lg-2 col-md-3 col-sm-12  d-flex align-items-center">
+                  <img src="./img/clients/client-1.png" class="img-fluid image " style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-2.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-3.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3  d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-4.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-5.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-6.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="carousel-item  h-100">
+
+            <div class="container h-100">
+              <div class="row h-100 ">
+                <div class="col-lg-2 col-md-3 col-sm-12  d-flex align-items-center">
+                  <img src="./img/clients/client-1.png" class="img-fluid image " style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-2.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-3.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3  d-flex align-items-center slid-second">
+                  <img src="./img/clients/client-4.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-5.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+                <div class="col-lg-2 d-flex align-items-center slid-first">
+                  <img src="./img/clients/client-6.png" class="img-fluid" style="transform: scale(0.6);" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- about us -->
+  <section class="container-fluid about-us my-5" id="about">
+
+    <article class="container-fluid article-1">
+      <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <div class="row mt-5 pt-5">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <p>
+              <i class="fa-regular fa-circle-check fs-5 text-info"></i>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              <i class="fa-regular fa-circle-check fs-5 text-info"></i>
+              Duis aute irure dolor in reprehenderit in voluptate velit.
+            </p>
+            <p>
+              <i class="fa-regular fa-circle-check fs-5 text-info"></i>
+              Ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button class="btn btn-outline-info text-info  border-2  rounded-3 fs-5 px-5">Read More</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="container-fluid  py-5 my-5 article-2">
+      <div class="w-100  px-5">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h2 class="fw-normal" style="color: #37517E;">Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong> </h2>
+            <p class="fs-6" style="color: gray;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+            </p>
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-4 py-2" style="box-shadow: 3px 3px 5px gray;" >
+                <h2 class="accordion-header " id="headingOne">
+                  <button class="accordion-button fw-bold" style="color: #37517e !important ;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="me-2 text-info">01</span> Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4 py-2" style="box-shadow: 3px 3px 5px gray;" >
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed fw-bold"  style="color: #37517e !important ;"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span class="me-2 text-info">02</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4 py-2" style="box-shadow: 3px 3px 5px gray;" >
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed fw-bold" type="button"  style="color: #37517e !important ;" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span class="me-2 text-info">03</span> Dolor sit amet consectetur adipiscing elit pellentesque?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-end align-items-center">
+            <div  class="h-100 w-100" >
+              <img src="./img/why-us.png" class="w-100 h-100"   alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- gallery -->
+  <section class="gallery-section my-5" id="portfolio">
+    <div class="gallery">
+      <div class="container">
+        <div class="gallery-content text-center">
+          <h2 class="text-uppercase">Portfolio</h2>
+          <p class="my-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+          </p>
+        </div>
+
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+              type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button"
+              role="tab" aria-controls="pills-app" aria-selected="false">App</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-card-tab" data-bs-toggle="pill" data-bs-target="#pills-card"
+              type="button" role="tab" aria-controls="pills-card" aria-selected="false">Contact</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button"
+              role="tab" aria-controls="pills-web" aria-selected="false">Web</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+            <div class="row all-row gx-3 gy-2 flex-column">
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/1.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/2.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/3.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/4.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/5.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/6.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/7.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/8.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/9.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+            <div class="row gx-3 gy-2">
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/1.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/2.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="gallery-img">
+                  <img src="img/3.jpg" class="w-100" alt="gallery-img">
+
+                  <div class="gallery-layer d-flex justify-content-between p-2 align-items-center bg-danger">
+                    <div class="gallery-layer-content">
+                      <h4>App1</h4>
+                      <p>Lorem ipsum, dolor sit</p>
+                    </div>
+
+                    <div class="gallery-layer-links">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-card" role="tabpanel" aria-labelledby="pills-card-tab">
+            Contact</div>
+          <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+            web</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Team -->
+  <section class="container my-5 team" id="team">
+    <div class="team-content text-center">
+      <h2 class="text-uppercase">Team</h2>
+      <p class="my-5">
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card mb-3 py-3 px-2  " style="max-width: 540px;  box-shadow: 3px 3px 10px gray;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/team/team-1.jpg" style="transform: scale(0.8);" class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title fw-bold" style="color: #37517E !important;">Walter White</h4>
+                <h6 style="color: gray;" class="mb-3">Chief Executive Officer</h6>
+                <hr class="w-25 my-2">
+                <p class="card-text " style="color: gray !important;">
+                  Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                </p>
+                <p class="card-text">
+                  <i class="fa-brands fa-x-twitter fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-facebook  fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-instagram fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-linkedin fs-4  btn btn-outline-secondary border-0 "></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card mb-3 py-3 px-2" style="max-width: 540px;  box-shadow: 3px 3px 10px gray;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/team/team-2.jpg" style="transform: scale(0.8);" class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title fw-bold" style="color: #37517E !important;">Walter White</h4>
+                <h6 style="color: gray;" class="mb-3">Chief Executive Officer</h6>
+                <hr class="w-25 my-2">
+                <p class="card-text " style="color: gray !important;">
+                  Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                </p>
+                <p class="card-text">
+                  <i class="fa-brands fa-x-twitter fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-facebook  fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-instagram fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-linkedin fs-4  btn btn-outline-secondary border-0 "></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card mb-3 py-3 px-2" style="max-width: 540px;  box-shadow: 3px 3px 10px gray;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/team/team-3.jpg" style="transform: scale(0.8);" class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title fw-bold" style="color: #37517E !important;">Walter White</h4>
+                <h6 style="color: gray;" class="mb-3">Chief Executive Officer</h6>
+                <hr class="w-25 my-2">
+                <p class="card-text " style="color: gray !important;">
+                  Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                </p>
+                <p class="card-text">
+                  <i class="fa-brands fa-x-twitter fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-facebook  fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-instagram fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-linkedin fs-4  btn btn-outline-secondary border-0 "></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card mb-3 py-3 px-2" style="max-width: 540px;  box-shadow: 3px 3px 10px gray;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./img/team/team-4.jpg" style="transform: scale(0.8);" class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title fw-bold" style="color: #37517E !important;">Walter White</h4>
+                <h6 style="color: gray;" class="mb-3">Chief Executive Officer</h6>
+                <hr class="w-25 my-2">
+                <p class="card-text " style="color: gray !important;">
+                  Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                </p>
+                <p class="card-text">
+                  <i class="fa-brands fa-x-twitter fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-facebook  fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-instagram fs-4  btn btn-outline-secondary border-0 "></i>
+                  <i class="fa-brands fa-linkedin fs-4  btn btn-outline-secondary border-0 "></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- bootstrap scripts -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- font awesome -->
+  <script src="./js/all.min.js"></script>
+
+</body>
+
+</html>
